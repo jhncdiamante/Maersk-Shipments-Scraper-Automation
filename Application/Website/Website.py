@@ -21,9 +21,9 @@ def retry_until_success(func, max_retries, delay=2, exceptions=(Exception,), on_
 
 class Website(ABC):
     def __init__(self, base_url):
-        self._DriverInstance = Driver(headless=False)
-        self._driver = self._DriverInstance.driver
-        self._wait = self._DriverInstance.wait
+        self.DriverInstance = Driver(headless=False)
+        self._driver = self.DriverInstance.driver
+        self._wait = self.DriverInstance.wait
         self._base_url = base_url
 
     def open_page(self, url, timeout=180):

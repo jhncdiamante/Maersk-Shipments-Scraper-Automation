@@ -76,3 +76,11 @@ class Driver:
             """
             },
         )
+
+    def close_driver(self):
+        self.driver.quit()
+        logging.info("Driver closed.")
+
+    def quit_driver(self):
+        self.driver.quit()
+        logging.info("Driver quit.")
