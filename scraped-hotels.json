@@ -1,0 +1,640 @@
+[
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegQIAxA-&qs=MiRDaGNJMzVIdDBQeW9yZHdmR2dzdlp5OHhkR1ozY1hNMWNCQUI4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.5,
+        "price": "n/a",
+        "name": "Holiday Inn Port of Miami-Downtown by IHG",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Air conditioning",
+            "Pet-friendly",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 1
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegQIAxBb&qs=MiZDaGdJdDlQOC1JVzl2dW5mQVJvTEwyY3ZNWFJtWW5BemRuQVFBUTgN&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.2,
+        "price": "\u20b111,589",
+        "name": "Hilton Miami Downtown",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 2
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegQIAxB1&qs=MihDaG9JMElhbWdhRHBoS3FZQVJvTkwyY3ZNVEZtY0RScU0yTXpkQkFCOA0&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.3,
+        "price": "\u20b12,509",
+        "name": "Miami Cheapest Place",
+        "amenities": [
+            "Free Wi-Fi",
+            "Parking",
+            "Smoke-free property"
+        ],
+        "result_number": 3
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCRAQ&qs=MiZDaGdJc0xXdTJidUx3Yks5QVJvTEwyY3ZNWFI0TVhSZk5UTVFBUTgN&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.5,
+        "price": "n/a",
+        "name": "Miami Princess Hotel",
+        "amenities": [
+            "Breakfast",
+            "Free Wi-Fi",
+            "Free parking",
+            "Air conditioning",
+            "Airport shuttle",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 4
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCsAQ&qs=MiZDaGdJOFAyMWc1em8yWjNpQVJvTEwyY3ZNWFJuY0dNeFgzWVFBUTgN&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.5,
+        "price": "n/a",
+        "name": "Century Hotel",
+        "amenities": [
+            "Free breakfast",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Air conditioning",
+            "Beach access",
+            ""
+        ],
+        "result_number": 5
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxDIAQ&qs=MiRDaGNJN3VMUjE4cUQ0TUdfQVJvS0wyMHZNR013TW1oNWJCQUI4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.7,
+        "price": "\u20b130,879",
+        "name": "Mandarin Oriental, Miami",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 6
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxDfAQ&qs=MiRDaGNJNGUycXRlX0trNmNhR2dzdlp5OHhkblo1ZVhkMlh4QUI4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.2,
+        "price": "n/a",
+        "name": "Beach Park Hotel",
+        "amenities": [
+            "Free Wi-Fi",
+            "Parking",
+            "Air conditioning",
+            "Beach access",
+            "Restaurant",
+            "",
+            ""
+        ],
+        "result_number": 7
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxD8AQ&qs=MiRDaGNJamFlU2xJNkNuTnBWR2dzdlp5OHhkR1JyYzJ4eWRCQUI4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.6,
+        "price": "n/a",
+        "name": "Regency Miami Airport by Sonesta",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 8
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCXAg&qs=MiJDaFVJeXM3ZjBzVFY5YWRKR2drdmJTOHdORE53YTJJUUFROA0&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.7,
+        "price": "\u20b144,126",
+        "name": "Four Seasons Hotel Miami",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 9
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCuAg&qs=MidDaGtRcV95Y3FkT1h0X2NxR2cwdlp5OHhNVzAxZW5sc05qVnNFQUk4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.5,
+        "price": "\u20b16,224",
+        "name": "NEW Luxurious Studio Private in the heart of Miami",
+        "amenities": [
+            "Apartment",
+            "Sleeps 2",
+            "1 bedroom",
+            "1 bathroom",
+            "1 bed",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 10
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxDEAg&qs=MiZDaGdJck5TWHZmZWF0c3Y2QVJvTEwyY3ZNWFp0TjJNM2RIY1FBUTgN&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.0,
+        "price": "n/a",
+        "name": "Royal Inn",
+        "amenities": [
+            "Free Wi-Fi",
+            "Free parking",
+            "Air conditioning",
+            "Accessible",
+            "Kid-friendly"
+        ],
+        "result_number": 11
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxDfAg&qs=MihDaG9Jd3BqZTNxbWoyOEwwQVJvTkwyY3ZNVEZqYkd4eE4zWjBOQkFCOA0&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.3,
+        "price": "\u20b19,009",
+        "name": "Novotel Miami Brickell",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 12
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxD5Ag&qs=MiZDaGdJMklidjdaQzV6OERvQVJvTEwyY3ZNWFpyZUc0eGMySVFBUTgN&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.9,
+        "price": "\u20b16,528",
+        "name": "Hilton Miami Airport Blue Lagoon",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 13
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCTAw&qs=MidDaGtJeHBiS2lNVGprYk1WR2cwdlp5OHhNWE4yWDNONWEzWjBFQUU4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.6,
+        "price": "n/a",
+        "name": "Best Value Inside City Miami, Near Airport, Beach, Center, Metro",
+        "amenities": [],
+        "result_number": 14
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCtAw&qs=MihDaG9RcWYzQzBLX0hqS3FYQVJvTkwyY3ZNVEYyWW5wMk5HdDJlUkFDOA0&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.8,
+        "price": "\u20b16,300",
+        "name": "Spacious Double Hotel Room Steps to Ocean (1Z)",
+        "amenities": [
+            "Apartment",
+            "Sleeps 4",
+            "1 bedroom",
+            "1 bathroom",
+            "2 beds",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 15
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxDDAw&qs=MihDaG9JNnMteF9ZalNnZl9qQVJvTkwyY3ZNVEY0WTJSc2VXZHdYeEFCOA0&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 1.0,
+        "price": "\u20b11,397",
+        "name": "women only rooms - men only rooms - free wifi - coffee parking",
+        "amenities": [],
+        "result_number": 16
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxDSAw&qs=MihDaG9JZzkzeThMekF0NEQzQVJvTkwyY3ZNVEYzTTNZNE9YSXpjeEFCOA0&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 1.3,
+        "price": "\u20b12,822",
+        "name": "Ludge by Miami Airport",
+        "amenities": [],
+        "result_number": 17
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxDoAw&qs=MidDaGtJeGVfcTR0dVZxWlpaR2cwdlp5OHhNV3d5WDJZM2VEaHpFQUU4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 2.8,
+        "price": "n/a",
+        "name": "Hotel at The Harrison Miami Beach",
+        "amenities": [
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Air conditioning",
+            "Breakfast",
+            "Bar",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 18
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCDBA&qs=MihDaG9Ja3FpYnZORFJwLXVfQVJvTkwyY3ZNVEZ5WnpaNk56azNPQkFCOA0&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 3.5,
+        "price": "n/a",
+        "name": "YOTEL Miami",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 19
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=2ahUKEwiHkd_2yIqNAxVarGYCHVFTD5AQyvcEegUIAxCgBA&qs=MidDaGtReTR6bThiRGd3X0FRR2cwdlp5OHhNWGcyY0hONU5IUjBFQUk4DQ&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA",
+        "rating": 4.4,
+        "price": "\u20b14,767",
+        "name": "Blue Little Havana",
+        "amenities": [
+            "House",
+            "Sleeps 11",
+            "7 bedrooms",
+            "7 bathrooms",
+            "8 beds",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 20
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CCEQyvcEahcKEwjIqIL4yIqNAxUAAAAAHQAAAAAQXw&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JNzhiRDJ0UEw1N0x0QVJvTkwyY3ZNVEZpZWpCaU5ITTFkaEFCOA1IAA&ap=MAE",
+        "rating": 4.3,
+        "price": "\u20b125,323",
+        "name": "W Miami",
+        "amenities": [
+            "Free Wi-Fi",
+            "Air conditioning",
+            "Pet-friendly",
+            "Breakfast",
+            "Parking",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 21
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CDoQyvcEahcKEwjIqIL4yIqNAxUAAAAAHQAAAAAQXw&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MidDaGtJLXNteXZyR2RwSjVxR2cwdlp5OHhNV1pzYkRONGVteHdFQUU4DUgA&ap=MAE",
+        "rating": 3.4,
+        "price": "n/a",
+        "name": "Comfort Inn & Suites Downtown Brickell-Port of Miami",
+        "amenities": [
+            "Free breakfast",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "Fitness center",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 22
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CFcQyvcEahcKEwjIqIL4yIqNAxUAAAAAHQAAAAAQXw&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JeS1mcWlJV2RsZm1VQVJvTkwyY3ZNVEZuYlhsNE9XMTJaaEFCOA1IAA&ap=MAE",
+        "rating": 3.5,
+        "price": "\u20b113,902",
+        "name": "YOTELPAD Miami",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 23
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CHUQyvcEahcKEwjIqIL4yIqNAxUAAAAAHQAAAAAQXw&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiNDaFlJdks3SWhvU2JfOWhiR2dvdmJTOHdNamQwWkdSeEVBRTgNSAA&ap=MAE",
+        "rating": 4.5,
+        "price": "\u20b114,419",
+        "name": "InterContinental Miami, an IHG Hotel",
+        "amenities": [
+            "Free breakfast",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 24
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CI4BEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JX3NIMDZJM1VpOW1iQVJvTkwyY3ZNVEZqYW1ocWNEZ3lkeEFCOA1IAA&ap=MAE",
+        "rating": 4.1,
+        "price": "n/a",
+        "name": "Eurostars Langford",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking",
+            "Air conditioning",
+            "Fitness center",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 25
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CK8BEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiZDaGdJeXNxOTEtdlFscTJ4QVJvTEwyY3ZNWFJtWnpONE16Y1FBUTgNSAA&ap=MAE",
+        "rating": 4.4,
+        "price": "\u20b117,218",
+        "name": "The Savoy Hotel & Beach Club ~ Miami Beach",
+        "amenities": [
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "Pet-friendly",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 26
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CMYBEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JakxMZDBzN1VnZU94QVJvTkwyY3ZNVEZqYldNeVozTmpOQkFCOA1IAA&ap=MAE",
+        "rating": 4.4,
+        "price": "\u20b131,068",
+        "name": "EAST Miami",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 27
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CN8BEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JeGZ6bDZaNll0WWJuQVJvTkwyY3ZNVEZ3YkhGbk5uazJNaEFCOA1IAA&ap=MAE",
+        "rating": 4.5,
+        "price": "\u20b14,322",
+        "name": "OQP Vacations Miami",
+        "amenities": [
+            "Free Wi-Fi",
+            "Free parking",
+            "Air conditioning",
+            "Breakfast",
+            "Airport shuttle",
+            "Smoke-free property"
+        ],
+        "result_number": 28
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CPYBEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JbGE2UjV0Zmk3UFBlQVJvTkwyY3ZNVEZyY0hveWN6Z3hheEFCOA1IAA&ap=MAE",
+        "rating": 4.0,
+        "price": "\u20b13,686",
+        "name": "Blue Little Havana",
+        "amenities": [],
+        "result_number": 29
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CIwCEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JbE5MVXM2YnZfNXUwQVJvTkwyY3ZNVEZpTm14c1kyb3hjeEFCOA1IAA&ap=MAE",
+        "rating": 3.8,
+        "price": "\u20b16,402",
+        "name": "YVE Hotel Miami",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Air conditioning",
+            "Pet-friendly",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 30
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CKUCEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9JaXNxY3ZmNmg2UGlnQVJvTkwyY3ZNVEZpZW5sd2NuWmpOaEFCOA1IAA&ap=MAE",
+        "rating": 4.2,
+        "price": "\u20b17,447",
+        "name": "The Meridian Miami Beach by Kasa",
+        "amenities": [
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "Pet-friendly",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 31
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CLwCEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiZDaGdJNHVYeHpvcV9wY0g5QVJvTEwyY3ZNWFJ4TkhKM2NuRVFBUTgNSAA&ap=MAE",
+        "rating": 4.3,
+        "price": "\u20b121,188",
+        "name": "JW Marriott Miami",
+        "amenities": [
+            "Breakfast ($)",
+            "Wi-Fi ($)",
+            "Parking ($)",
+            "Outdoor pool",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 32
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CNUCEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiRDaGNJd0xTSGdQN2Q5ZEU5R2dzdlp5OHhkSFI1ZUdwdGNoQUI4DUgA&ap=MAE",
+        "rating": 4.3,
+        "price": "n/a",
+        "name": "Hampton Inn by Hilton Miami-Coconut Grove/Coral Gables",
+        "amenities": [
+            "Free breakfast",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 33
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CPMCEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MidDaGtJdExEeV9hamoxZEUtR2cwdlp5OHhNV2d3WW5nemVHTjBFQUU4DUgA&ap=MAE",
+        "rating": 4.0,
+        "price": "\u20b18,126",
+        "name": "Miami River Inn",
+        "amenities": [
+            "Free Wi-Fi",
+            "Parking",
+            "Pool",
+            "Air conditioning",
+            "Pet-friendly",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 34
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CIoDEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiRDaGNJbDdqOHdKVzc0X21mQVJvS0wyMHZNSGswZG5NNWNCQUI4DUgA&ap=MAE",
+        "rating": 3.8,
+        "price": "\u20b17,598",
+        "name": "Hilton Garden Inn Miami Brickell South",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Free parking",
+            "Outdoor pool",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 35
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CKQDEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiRDaGNJN2ZPUWxzNjAxdGtaR2dzdlp5OHhkR3B5Y1hOamNCQUI4DUgA&ap=MAE",
+        "rating": 4.2,
+        "price": "n/a",
+        "name": "Roami at Habitat Brickell",
+        "amenities": [
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 36
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CL8DEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiZDaGdJMGRhSWhNdXR5NVdKQVJvTEwyMHZNREV3TW1aZmRHZ1FBUTgNSAA&ap=MAE",
+        "rating": 4.4,
+        "price": "n/a",
+        "name": "Dua Miami, Autograph Collection",
+        "amenities": [
+            "Breakfast ($)",
+            "Parking ($)",
+            "Hot tub",
+            "Air conditioning",
+            "Pet-friendly",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 37
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CNwDEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MiRDaGNJaEp5cnBiSGdvOFZzR2dzdlp5OHhkR1J4Tm5SeGFoQUI4DUgA&ap=MAE",
+        "rating": 4.1,
+        "price": "n/a",
+        "name": "Arya Hotel and Suites Coconut Grove",
+        "amenities": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Outdoor pool",
+            "Hot tub",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 38
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CPcDEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MidDaGtReTR6bThiRGd3X0FRR2cwdlp5OHhNWGcyY0hONU5IUjBFQUk4DUgA&ap=MAE",
+        "rating": 4.4,
+        "price": "\u20b14,767",
+        "name": "Blue Little Havana",
+        "amenities": [
+            "House",
+            "Sleeps 11",
+            "7 bedrooms",
+            "7 bathrooms",
+            "8 beds",
+            "Air conditioning",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 39
+    },
+    {
+        "url": "https://www.google.com/travel/search?q=miami&ved=0CI0EEMr3BGoXChMIyKiC-MiKjQMVAAAAAB0AAAAAEF8&ts=CAESCgoCCAMKAggDEAAaWAo6EjgKCC9tLzBmMnYwMiUweDg4ZDliMGEyMGVjOGMxMTE6MHhmZjk2ZjI3MWRkYWQ0ZjY1OgVNaWFtaRIaEhQKBwjpDxAFGAwSBwjpDxAFGA0YATICEAAqBwoFOgNQSFA&qs=EgRDQkk9MihDaG9RajZ6MDY2aU52dkRZQVJvTkwyY3ZNVEZ0TlhsMk9UTnNNaEFDOA1IAA&ap=MAE",
+        "rating": 4.0,
+        "price": "\u20b15,085",
+        "name": "Miami International Airport 1",
+        "amenities": [
+            "Apartment",
+            "Sleeps 4",
+            "1 bedroom",
+            "1 bathroom",
+            "2 beds",
+            "6 sq m",
+            "",
+            "",
+            ""
+        ],
+        "result_number": 40
+    }
+]

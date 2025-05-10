@@ -1,13 +1,14 @@
 from .Website import Website, retry_until_success
 
 from datetime import datetime   
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.by import By
 from .Shipment import Shipment
 import logging
 import time
+from .SearchBar import SearchBar
 
 from ..Log.logging_config import setup_logger
 setup_logger()
@@ -18,22 +19,34 @@ setup_logger()
 class Maersk(Website):
     def __init__(self, base_url):
         super().__init__(base_url)
-        self._driver.get(self._base_url)
-        logging.info(f"Opening homepage: {self._base_url}")
+        self.open_page(self._base_url)
+        self._driver.maximize_window()
         self.confirm_cookies()
+        self.search_bar = SearchBar(self._driver)
 
         self.shipments = []
-        self.failed_shipment_ids = []
+        self.failed_shipments = []
 
     def start(self, shipment_ids: list[str]):
         for shipment_id in shipment_ids:
             try:
-                self.open_page(f"{self._base_url}{shipment_id}")
+                self.search_bar.clear()
+                self.search_bar.type_keyword(shipment_id)
+                self.search_bar.click_search_button()
                 self.shipments.append(Shipment(shipment_id, self._driver))
+
             except Exception as e:
-                self.failed_shipment_ids.append(shipment_id)
-                logging.error(f"Failed to extract shipment {shipment_id}: {e}")
-                continue
+                try:
+                    self._driver.find_element(By.CSS_SELECTOR, "button[data-test='coi-allow-all-button']")
+                    self.confirm_cookies()
+                    self.search_bar.clear()
+                    self.search_bar.type_keyword(shipment_id)
+                    self.search_bar.click_search_button()
+                    self.shipments.append(Shipment(shipment_id, self._driver))
+                except NoSuchElementException:
+                    self.failed_shipments.append(shipment_id) 
+                    logging.error(f"Error in tracking shipment {shipment_id}: {e}")
+                
     
 
     def confirm_cookies(self):  
@@ -46,8 +59,7 @@ class Maersk(Website):
             )
             cookies_button.click()
             logging.info("Cookies confirmed.")
-            self._driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(5)
+          
         
         retry_until_success(
             try_confirm_cookies,

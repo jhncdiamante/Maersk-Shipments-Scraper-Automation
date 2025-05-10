@@ -4,7 +4,7 @@ import undetected_chromedriver as uc
 from selenium.webdriver.chrome.options import Options
 from fake_useragent import UserAgent
 from selenium.webdriver.support.wait import WebDriverWait
-
+from selenium.webdriver.support import expected_conditions as EC
 import logging
 
 
