@@ -1,6 +1,5 @@
 from .Website import Website, retry_until_success
 
-from datetime import datetime   
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -29,23 +28,13 @@ class Maersk(Website):
 
     def start(self, shipment_ids: list[str]):
         for shipment_id in shipment_ids:
-            try:
-                self.search_bar.clear()
-                self.search_bar.type_keyword(shipment_id)
-                self.search_bar.click_search_button()
-                self.shipments.append(Shipment(shipment_id, self._driver))
+            
+            self.search_bar.clear()
+            self.search_bar.type_keyword(shipment_id)
+            self.search_bar.click_search_button()
+            self.shipments.append(Shipment(str(shipment_id), self._driver))
 
-            except Exception as e:
-                try:
-                    self._driver.find_element(By.CSS_SELECTOR, "button[data-test='coi-allow-all-button']")
-                    self.confirm_cookies()
-                    self.search_bar.clear()
-                    self.search_bar.type_keyword(shipment_id)
-                    self.search_bar.click_search_button()
-                    self.shipments.append(Shipment(shipment_id, self._driver))
-                except NoSuchElementException:
-                    self.failed_shipments.append(shipment_id) 
-                    logging.error(f"Error in tracking shipment {shipment_id}: {e}")
+            
                 
     
 
