@@ -62,7 +62,7 @@ try:
 except Exception as e:
     print(f"An error occurred: {e}")
 finally:
-    failed_df = pd.DataFrame(maersk.failed_shipment_ids, columns=["Failed Shipment IDs"])
+    failed_df = pd.DataFrame(maersk.failed_shipments, columns=["Failed Shipment IDs"])
     failed_df.to_csv("Failed_Shipment_Extractions.csv", index=False)
 
     df = pd.DataFrame(data_list)

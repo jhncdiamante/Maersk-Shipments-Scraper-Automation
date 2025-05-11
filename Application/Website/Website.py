@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 from Application.WebDriver.Driver import Driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
@@ -26,11 +26,10 @@ class Website(ABC):
         self._wait = self.DriverInstance.wait
         self._base_url = base_url
 
-    def open_page(self, url, timeout=180):
-        
+    def open_page(self, url):
         self._driver.get(url)
         logging.info(f"Opening page: {url}")    
-        WebDriverWait(self._driver, timeout).until(
+        self._wait.until(
             lambda _: self._driver.execute_script('return document.readyState') == 'complete'
         )
         logging.info(f"Page loaded: {url}")
