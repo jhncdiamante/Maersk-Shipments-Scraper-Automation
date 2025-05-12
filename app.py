@@ -6,12 +6,12 @@ INPUT_FILE_PATH = r"D:\vscode\ShipmentTracker\MSK Scrap DataFrame 2025-01-23--.x
 if INPUT_FILE_PATH.endswith(".csv"):
     df = pd.read_csv(INPUT_FILE_PATH)
 elif INPUT_FILE_PATH.endswith(".xlsx"):
-    df = pd.read_excel(r"D:\vscode\ShipmentTracker\MSK Scrap DataFrame 2025-01-23--.xlsx")
+    df = pd.read_excel(INPUT_FILE_PATH)
     
 # Convert the first column to a list of BL numbers
 first_col_list = df.iloc[:, 0].dropna().unique().tolist()
 maersk = Maersk("https://www.maersk.com/tracking/")
-maersk.start(first_col_list)
+maersk.start(first_col_list[:1])
 data_list = []
 
 milestone_keys = {"Gate in", "Departure", "Arrival", "Discharge", "Gate out for delivery"}
@@ -60,13 +60,11 @@ try:
 
 
 except Exception as e:
-    print(f"An error occurred: {e}")
+    print(f"An error occurred: Stopping program. Error: {e}")
 finally:
     failed_df = pd.DataFrame(maersk.failed_shipments, columns=["Failed Shipment IDs"])
     failed_df.to_csv("Failed_Shipment_Extractions.csv", index=False)
 
     df = pd.DataFrame(data_list)
     df.to_csv("OUTPUT.csv", index=False)
-    maersk.DriverInstance.close_driver()
-    maersk.DriverInstance.quit_driver()
 

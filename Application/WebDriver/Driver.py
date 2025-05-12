@@ -1,4 +1,3 @@
-
 import undetected_chromedriver as uc
 
 from selenium.webdriver.chrome.options import Options
@@ -14,6 +13,7 @@ logging.basicConfig(
     level=logging.INFO,  # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     format="%(asctime)s - %(levelname)s - %(message)s",  # Log format
     datefmt="%Y-%m-%d %H:%M:%S",
+    filemode='w'  # Clear the file on each run
 )
 
 TIMEOUT = 60
@@ -77,10 +77,4 @@ class Driver:
             },
         )
 
-    def close_driver(self):
-        self.driver.quit()
-        logging.info("Driver closed.")
-
-    def quit_driver(self):
-        self.driver.quit()
-        logging.info("Driver quit.")
+   

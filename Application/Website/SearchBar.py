@@ -50,7 +50,7 @@ class SearchBar:
         logging.info(f"Keyword typed: {search_term}")
 
     def click_search_button(self):
-        action = ActionChains(self.driver)
+        action = ActionChains(self._driver)
         logging.info("Clicking search button...")
         action.move_to_element(self.search_button).click().perform()
         logging.info("Search button clicked.")
