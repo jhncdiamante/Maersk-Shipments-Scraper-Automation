@@ -11,7 +11,7 @@ elif INPUT_FILE_PATH.endswith(".xlsx"):
 # Convert the first column to a list of BL numbers
 first_col_list = df.iloc[:, 0].dropna().unique().tolist()
 maersk = Maersk("https://www.maersk.com/tracking/")
-maersk.start(first_col_list[:1])
+maersk.start(first_col_list)
 data_list = []
 
 milestone_keys = {"Gate in", "Departure", "Arrival", "Discharge", "Gate out for delivery"}
