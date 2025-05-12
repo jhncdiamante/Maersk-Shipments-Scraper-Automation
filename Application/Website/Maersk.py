@@ -1,6 +1,6 @@
 from .Website import Website, retry_until_success
 
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.by import By
@@ -12,8 +12,6 @@ from ..Log.logging_config import setup_logger
 setup_logger()
 
 
-
-
 class Maersk(Website):
     def __init__(self, base_url):
         super().__init__(base_url)
@@ -22,8 +20,8 @@ class Maersk(Website):
         self.confirm_cookies()
         self.search_bar = SearchBar(self._driver)
 
-        self.shipments = []
-        self.failed_shipments = []
+        self.shipments = [] # list of Shipment objects
+        self.failed_shipments = [] # list of shipment ids that failed to process
 
     def start(self, shipment_ids: list[str]):
         for shipment_id in shipment_ids:

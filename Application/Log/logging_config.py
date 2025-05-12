@@ -11,16 +11,3 @@ def setup_logger():
             filemode='w'
         )
     return logging
-
-def reset_logger():
-    # Get the root logger
-    logger = logging.getLogger()
-    
-    # Remove all handlers associated with the root logger
-    for handler in logger.handlers[:]:
-        logger.removeHandler(handler)
-    
-    # Reconfigure the logger as per your needs
-    logging.basicConfig(level=logging.INFO)  # Set log level and other configuration
-
-

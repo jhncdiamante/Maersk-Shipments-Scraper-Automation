@@ -25,7 +25,6 @@ class Driver:
         self.ua = UserAgent()
         self.setUpDriver()
         self.wait = WebDriverWait(self.driver, TIMEOUT, poll_frequency=0.5)
-        #self.cookies = Cookies(self.driver, "cookies.pkl")
 
     def setUpDriver(self):
         logging.info("Setting up driver...")
