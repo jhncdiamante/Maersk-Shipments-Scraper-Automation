@@ -7,7 +7,8 @@ from selenium.webdriver.common.by import By
 from .Shipment import Shipment
 import logging
 from .SearchBar import SearchBar
-
+import time
+import random
 from ..Log.logging_config import setup_logger
 setup_logger()
 
@@ -36,6 +37,7 @@ class Maersk(Website):
                 self.failed_shipments.append(shipment_id)
             finally:
                 logging.info(f"Shipment {shipment_id} processed.")
+                time.sleep(random.randint(3, 10))
     
 
     def confirm_cookies(self):  

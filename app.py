@@ -62,8 +62,13 @@ try:
 except Exception as e:
     print(f"An error occurred: Stopping program. Error: {e}")
 finally:
-    failed_df = pd.DataFrame(maersk.failed_shipments, columns=["Failed Shipment IDs"])
-    failed_df.to_csv("Failed_Shipment_Extractions.csv", index=False)
+    if maersk.failed_shipments:
+        failed_df = pd.DataFrame(maersk.failed_shipments, columns=["Failed Shipment IDs"])
+        failed_df.to_csv("Failed_Shipment_Extractions.csv", index=False)
+
+        print("The program has finished running. Please check the output file for the results.")
+        print(f"There are {len(maersk.failed_shipments)} shipments that failed to process.")
+        print(f"Run again with the failed shipment IDs found in the 'Failed_Shipment_Extractions.csv' file\n to get the full data. Do not forget to rename the input and output file for the second run.")
 
     df = pd.DataFrame(data_list)
     df.to_csv("OUTPUT.csv", index=False)

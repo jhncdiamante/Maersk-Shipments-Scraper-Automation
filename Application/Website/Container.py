@@ -10,13 +10,14 @@ from .Milestone import Milestone
 from selenium.webdriver.common.action_chains import ActionChains
 from .Website import retry_until_success
 import logging
-
+import time
+import random
 from ..Log.logging_config import setup_logger
 setup_logger()
 
 
 
-TIMEOUT = 180
+TIMEOUT = 30
 
 class Container:
     '''
@@ -51,6 +52,7 @@ class Container:
         self.milestones: list[Milestone] = self.get_milestones(self.milestones_panel)
         assert len(self.milestones) > 0
         self.is_complete: bool = "empty container return" in self.milestones[-1].event.lower()
+        time.sleep(random.randint(2, 5))
 
 
     def get_container_id(self) -> str:
@@ -89,11 +91,12 @@ class Container:
             return None
         
     def click_expand_button(self):
-        if not self.expand_button:
-            logging.info(f"Expand button does not exist in container {self.container_id}, expanding button skipped.")
-            return
-        if self.expand_button.get_attribute("aria-expanded") == "false":
-            def func():
+        def func():
+            if not self.expand_button:
+                logging.info(f"Expand button does not exist in container {self.container_id}, expanding button skipped.")
+                return
+            if self.expand_button.get_attribute("aria-expanded") == "false":
+                
                 actions = ActionChains(self.container_page)
                 actions.move_to_element(self.expand_button).click().perform()
 
@@ -102,16 +105,16 @@ class Container:
                     self.milestones_panel = self.get_milestones_panel(self.milestones_panel_id)
                 except Exception:
                     raise TimeoutException
+                
                
-               
-            return retry_until_success(
-                func=func,
-                max_retries=3,
-                delay=2,
-                exceptions=(TimeoutException),
-                on_fail_message="Failed to click expand button. Retrying...",
-                on_fail_execute_message="Failed to click expand button after 3 attempts"
-            )
+        retry_until_success(
+            func=func,
+            max_retries=3,
+            delay=2,
+            exceptions=(TimeoutException),
+            on_fail_message="Failed to click expand button. Retrying...",
+            on_fail_execute_message="Failed to click expand button after 3 attempts"
+        )
         
         logging.info(f"Expand button already expanded in container {self.container_id}.")
         
@@ -126,7 +129,7 @@ class Container:
             return milestones_panel
         return retry_until_success(
             func=func,
-            max_retries=3,
+            max_retries=10,
             delay=2,
             exceptions=(TimeoutError, TimeoutException),
             on_fail_message="Failed to get milestones panel. Retrying...",
@@ -135,7 +138,7 @@ class Container:
 
         
     def get_milestones(self, milestones_panel):
-        try:
+        def func():
             milestones = WebDriverWait(milestones_panel, TIMEOUT).until(
                 EC.visibility_of_all_elements_located(
                     (By.CLASS_NAME, "milestone")
@@ -143,8 +146,15 @@ class Container:
             )
             logging.info(f"Found {len(milestones)} milestones in container {self.container_id}.")
             return [Milestone(milestone_element) for milestone_element in milestones]
-        except (TimeoutError, TimeoutException): 
-            logging.error(f"No milestones can be retrieved in container {self.container_id}...")
+        
+        return retry_until_success(
+            func=func,
+            max_retries=3,
+            delay=2,
+            exceptions=(TimeoutError, TimeoutException),
+            on_fail_message="Failed to get milestones. Retrying...",
+            on_fail_execute_message="Failed to get milestones after 3 attempts"
+        )
 
 
     def get_milestones_panel_id(self, expand_button):
