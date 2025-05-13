@@ -61,4 +61,7 @@ class Maersk(Website):
             on_fail_execute_message="Failed to confirm cookies after 3 attempts"
         )
 
+    def close(self):
+        self._driver.close()
+
     
